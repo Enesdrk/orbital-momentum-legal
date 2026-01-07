@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -51,7 +52,7 @@
             left: -50%;
             width: 200%;
             height: 200%;
-            background: 
+            background:
                 radial-gradient(circle at 20% 80%, rgba(0, 212, 255, 0.1) 0%, transparent 40%),
                 radial-gradient(circle at 80% 20%, rgba(144, 0, 255, 0.1) 0%, transparent 40%),
                 radial-gradient(circle at 50% 50%, rgba(0, 212, 255, 0.03) 0%, transparent 60%);
@@ -59,8 +60,15 @@
         }
 
         @keyframes cosmicMove {
-            0%, 100% { transform: translate(0, 0) rotate(0deg); }
-            50% { transform: translate(-2%, 2%) rotate(1deg); }
+
+            0%,
+            100% {
+                transform: translate(0, 0) rotate(0deg);
+            }
+
+            50% {
+                transform: translate(-2%, 2%) rotate(1deg);
+            }
         }
 
         /* Stars */
@@ -71,14 +79,14 @@
             width: 100%;
             height: 100%;
             z-index: -1;
-            background-image: 
-                radial-gradient(2px 2px at 20px 30px, rgba(255,255,255,0.3), transparent),
-                radial-gradient(2px 2px at 40px 70px, rgba(255,255,255,0.2), transparent),
-                radial-gradient(1px 1px at 90px 40px, rgba(255,255,255,0.4), transparent),
-                radial-gradient(2px 2px at 160px 120px, rgba(255,255,255,0.2), transparent),
-                radial-gradient(1px 1px at 230px 80px, rgba(255,255,255,0.3), transparent),
-                radial-gradient(2px 2px at 300px 200px, rgba(0,212,255,0.4), transparent),
-                radial-gradient(1px 1px at 400px 50px, rgba(255,255,255,0.2), transparent);
+            background-image:
+                radial-gradient(2px 2px at 20px 30px, rgba(255, 255, 255, 0.3), transparent),
+                radial-gradient(2px 2px at 40px 70px, rgba(255, 255, 255, 0.2), transparent),
+                radial-gradient(1px 1px at 90px 40px, rgba(255, 255, 255, 0.4), transparent),
+                radial-gradient(2px 2px at 160px 120px, rgba(255, 255, 255, 0.2), transparent),
+                radial-gradient(1px 1px at 230px 80px, rgba(255, 255, 255, 0.3), transparent),
+                radial-gradient(2px 2px at 300px 200px, rgba(0, 212, 255, 0.4), transparent),
+                radial-gradient(1px 1px at 400px 50px, rgba(255, 255, 255, 0.2), transparent);
             background-size: 500px 500px;
         }
 
@@ -141,7 +149,8 @@
             transition: all 0.3s ease;
         }
 
-        nav a:hover, nav a.active {
+        nav a:hover,
+        nav a.active {
             color: var(--accent);
             border-color: var(--accent);
             background: rgba(0, 212, 255, 0.05);
@@ -181,7 +190,8 @@
             margin-bottom: 16px;
         }
 
-        ul, ol {
+        ul,
+        ol {
             color: var(--text-secondary);
             margin: 16px 0;
             padding-left: 24px;
@@ -203,7 +213,8 @@
             margin: 24px 0;
         }
 
-        th, td {
+        th,
+        td {
             padding: 16px;
             text-align: left;
             border: 1px solid var(--border);
@@ -279,12 +290,14 @@
                 font-size: 14px;
             }
 
-            th, td {
+            th,
+            td {
                 padding: 12px 8px;
             }
         }
     </style>
 </head>
+
 <body>
     <div class="cosmic-bg"></div>
     <div class="stars"></div>
@@ -304,21 +317,27 @@
 
         <div class="content">
             <h2>Introduction</h2>
-            <p>Welcome to <strong>Orbital Momentum</strong> ("we", "our", "us"). We respect your privacy and are committed to protecting your personal data. This privacy policy explains how we collect, use, and protect information when you use our mobile application.</p>
+            <p>Welcome to <strong>Orbital Momentum</strong> ("we", "our", "us"). We respect your privacy and are
+                committed to protecting your personal data. This privacy policy explains how we collect, use, and
+                protect information when you use our mobile application.</p>
 
             <h2>Information We Collect</h2>
-            
+
             <h3>1. Information You Provide</h3>
             <ul>
-                <li><strong>Game Progress</strong>: Level completion, scores, and achievements stored locally on your device</li>
-                <li><strong>Preferences</strong>: Language settings, sound preferences, and haptic feedback settings</li>
+                <li><strong>Game Progress</strong>: Level completion, scores, and achievements stored locally on your
+                    device</li>
+                <li><strong>Preferences</strong>: Language settings, sound preferences, and haptic feedback settings
+                </li>
             </ul>
 
             <h3>2. Automatically Collected Information</h3>
             <ul>
-                <li><strong>Device Information</strong>: Device type, operating system version, and unique device identifiers</li>
+                <li><strong>Device Information</strong>: Device type, operating system version, and unique device
+                    identifiers</li>
                 <li><strong>Usage Data</strong>: Game session duration, levels played, and in-app interactions</li>
-                <li><strong>Advertising ID</strong>: Used for personalized advertising (you can opt-out via device settings)</li>
+                <li><strong>Advertising ID</strong>: Used for personalized advertising (you can opt-out via device
+                    settings)</li>
             </ul>
 
             <h3>3. Third-Party Services</h3>
@@ -336,12 +355,8 @@
                     <tr>
                         <td>Unity Ads</td>
                         <td>Advertising</td>
-                        <td><a href="https://unity.com/legal/privacy-policy" target="_blank">Unity Privacy Policy</a></td>
-                    </tr>
-                    <tr>
-                        <td>Google AdMob</td>
-                        <td>Advertising</td>
-                        <td><a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></td>
+                        <td><a href="https://unity.com/legal/privacy-policy" target="_blank">Unity Privacy Policy</a>
+                        </td>
                     </tr>
                 </tbody>
             </table>
@@ -360,11 +375,12 @@
             <ul>
                 <li><strong>Local Storage</strong>: Game progress and settings are stored locally on your device</li>
                 <li><strong>No Account Required</strong>: We do not require user registration or login</li>
-                <li><strong>No Personal Data Collection</strong>: We do not collect names, emails, or other personally identifiable information</li>
+                <li><strong>No Personal Data Collection</strong>: We do not collect names, emails, or other personally
+                    identifiable information</li>
             </ul>
 
             <h2>Advertising</h2>
-            <p>Our app displays ads through Unity Ads and Google AdMob. These services may use:</p>
+            <p>Our app displays ads through Unity Ads. This service may use:</p>
             <ul>
                 <li>Device advertising identifier</li>
                 <li>IP address</li>
@@ -377,7 +393,8 @@
             </ul>
 
             <h2>Children's Privacy</h2>
-            <p>Our app is suitable for all ages. We do not knowingly collect personal information from children under 13. If you believe we have collected such information, please contact us immediately.</p>
+            <p>Our app is suitable for all ages. We do not knowingly collect personal information from children under
+                13. If you believe we have collected such information, please contact us immediately.</p>
 
             <h2>Your Rights</h2>
             <p>Depending on your location, you may have rights to:</p>
@@ -389,10 +406,12 @@
             </ul>
 
             <h2>Data Security</h2>
-            <p>We implement appropriate security measures to protect your information. However, no method of transmission over the internet is 100% secure.</p>
+            <p>We implement appropriate security measures to protect your information. However, no method of
+                transmission over the internet is 100% secure.</p>
 
             <h2>Changes to This Policy</h2>
-            <p>We may update this privacy policy from time to time. We will notify you of any changes by posting the new policy on this page and updating the "Last Updated" date.</p>
+            <p>We may update this privacy policy from time to time. We will notify you of any changes by posting the new
+                policy on this page and updating the "Last Updated" date.</p>
 
             <div class="contact-box">
                 <h3>Contact Us</h3>
@@ -401,7 +420,8 @@
             </div>
 
             <p style="margin-top: 40px; font-size: 12px; color: var(--text-muted); text-align: center;">
-                <em>This privacy policy is provided in accordance with GDPR, CCPA, and other applicable privacy laws.</em>
+                <em>This privacy policy is provided in accordance with GDPR, CCPA, and other applicable privacy
+                    laws.</em>
             </p>
         </div>
 
@@ -411,4 +431,5 @@
         </footer>
     </div>
 </body>
+
 </html>
